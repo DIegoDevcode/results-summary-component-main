@@ -1,0 +1,67 @@
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+:root {
+  /* Colors */
+  --color-light-red: hsl(0, 100%, 67%);
+  --color-orangey-yellow: hsl(39, 100%, 56%);
+  --color-green-teal: hsl(166, 100%, 37%);
+  --color-cobalt-blue: hsl(234, 85%, 45%);
+  /* Gradients */
+  --gradient-light-slate-blue-bg: hsl(252, 100%, 67%);
+  --gradient-light-royal-blue-bg: hsl(241, 81%, 54%);
+  --gradient-violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --gradient-persian-blue-circle: hsla(241, 72%, 46%, 0);
+  /* Neutral */
+  --color-white: hsl(0, 0%, 100%);
+  --color-pale-blue: hsl(221, 100%, 96%);
+  --color-light-lavender: hsl(241, 100%, 89%);
+  --color-dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+.heading-center--gray {
+  text-align: center;
+  background-color: rgb(115, 83, 253);
+  color: var(--color-light-lavender);
+  padding-top: 25px;
+  padding-bottom: 35px;
+  font-size: var(--font-weight-regular);
+}
+
+.background-container {
+  background-color: rgb(108, 79, 251);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 15rem;
+  width: 25%;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-white);
+  background-color: rgb(83, 53, 227);
+}
+.circle h1 {
+  padding-top: 20px;
+}
+.circle p {
+  color: var(--color-light-lavender);
+  font-size: 14px;
+}/*# sourceMappingURL=styles.css.map */
