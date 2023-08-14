@@ -1,8 +1,10 @@
 @import url(https://fonts.google.com/specimen/Hanken+Grotesk);
 @import './Sass/Variables.scss';
+@import './Sass/Table.scss';
 *{
    padding: 0;
    margin: 0;
+   list-style: none;
 }
 
 body{
@@ -10,16 +12,15 @@ body{
    font-size: 18px;
 }
 
-header{
+main{
    display: flex;
    justify-content: space-between ;
    align-items: center;
-   padding-left: 30rem;
+   padding-left: 15rem;
    padding-top: 30px;
 }
 
 .heading-center--gray{
-   text-align: center;
    background-color: rgb(115,83,253);
    color: var(--color-light-lavender);
    padding-top: 25px;
@@ -28,11 +29,12 @@ header{
 }
 
 .background-container{
+   text-align: center;
    background-color: rgb(108,79,251);
    border-bottom-left-radius: 40px;
    border-bottom-right-radius: 40px;
-   height: 18rem;
-   width: 12rem;
+   height: 20rem;
+   width: 15rem;
 }
    
 .circle-container{
@@ -58,6 +60,6 @@ header{
 Article{
    color: var(--color-light-lavender);
    text-align: center;
-   padding-top: 50px;
+   padding-top: 2px;
    padding-right: 17px;
 }
