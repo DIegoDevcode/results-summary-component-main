@@ -1,6 +1,4 @@
 @import url(https://fonts.google.com/specimen/Hanken+Grotesk);
-@import './Sass/Variables.scss';
-@import './Sass/Table.scss';
 *{
    padding: 0;
    margin: 0;
@@ -14,8 +12,6 @@ body{
 
 main{
    display: flex;
-   justify-content: space-between ;
-   align-items: center;
    padding-left: 15rem;
    padding-top: 30px;
 }
@@ -62,4 +58,36 @@ Article{
    text-align: center;
    padding-top: 2px;
    padding-right: 17px;
+}
+
+/*.subtitle{
+   margin-top: 30px;
+   margin-left: 560px;
+}*/
+
+.flex-table-container{
+   width: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.colum-left{
+   padding-right: 185px;
+   background-color: var(--color-pale-blue);
+}
+
+.Reaction{
+   color: #FF6D6B;
+}
+
+.Memory{
+   color: var(--color-orangey-yellow);
+}
+
+.Verbal{
+   color: var(--color-green-teal);
+}
+
+.Visual{
+   color: var(--color-cobalt-blue);
 }
