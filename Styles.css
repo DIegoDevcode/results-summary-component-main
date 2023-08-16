@@ -20,8 +20,10 @@ main{
    background-color: rgb(115,83,253);
    color: var(--color-light-lavender);
    padding-top: 25px;
-   padding-bottom: 35px;
+   padding-bottom: 50px;
    font-size: var(--font-weight-regular);
+   border-top-left-radius: 40px;
+   border-top-right-radius: 40px;
 }
 
 .background-container{
@@ -29,7 +31,8 @@ main{
    background-color: rgb(108,79,251);
    border-bottom-left-radius: 40px;
    border-bottom-right-radius: 40px;
-   height: 20rem;
+   border-radius: 60px;
+   height: 18rem;
    width: 15rem;
 }
    
@@ -40,30 +43,28 @@ main{
 }
 .circle{
    width: 100px;
-   height: 100px;
+   height: 105px;
    border-radius: 50%;
    text-align: center;
    color: var(--color-white);
    background-color: rgb(83,53,227);
-   h1{
-      padding-top: 20px;
-   }
-   p{
-      color: var(--color-light-lavender);
-      font-size: 14px;
-   }
+}
+.circle h1{
+   padding-top: 25px;
+}
+.circle p{
+   color: var(--color-light-lavender);
+   font-size: 14px;
 }
 Article{
    color: var(--color-light-lavender);
    text-align: center;
-   padding-top: 2px;
+   padding-top: 30px;
    padding-right: 17px;
+   font-size: 15px;
 }
 
-/*.subtitle{
-   margin-top: 30px;
-   margin-left: 560px;
-}*/
+
 
 .flex-table-container{
    width: 40%;
@@ -78,16 +79,31 @@ Article{
 
 .Reaction{
    color: #FF6D6B;
+   padding-bottom: 13px;
 }
 
 .Memory{
    color: var(--color-orangey-yellow);
+   padding-bottom: 13px;
 }
 
 .Verbal{
    color: var(--color-green-teal);
+   padding-bottom: 13px;
 }
 
 .Visual{
    color: var(--color-cobalt-blue);
+   padding-bottom: 13px;
 }
+
+.subtitle-container{
+   width: 0rem;
+   height: 70%;
+}
+
+.subtitle{
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
