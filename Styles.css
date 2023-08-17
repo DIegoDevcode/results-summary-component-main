@@ -1,109 +1,59 @@
-@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
-*{
-   padding: 0;
-   margin: 0;
-   list-style: none;
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
 }
 
-body{
-   font-family:'Hanken Grotesk', sans-serif;
-   font-size: 18px;
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.8rem;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e1e1e1;
+  display: grid;
+  place-items: center;
 }
 
-main{
-   display: flex;
-   padding-left: 15rem;
-   padding-top: 30px;
+.main-container {
+  width: 60rem;
+  height: 39rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.result-container {
+  background-color: var(--gradient-violet-blue-circle);
+  padding: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.heading-center--gray{
-   background-color: rgb(115,83,253);
-   color: var(--color-light-lavender);
-   padding-top: 25px;
-   padding-bottom: 50px;
-   font-size: var(--font-weight-regular);
-   border-top-left-radius: 40px;
-   border-top-right-radius: 40px;
+.circle {
+  border-radius: 50%;
+  background-color: var(--gradient-light-slate-blue-bg);
+  width: 17rem;
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-pale-blue);
 }
 
-.background-container{
-   text-align: center;
-   background-color: rgb(108,79,251);
-   border-bottom-left-radius: 40px;
-   border-bottom-right-radius: 40px;
-   border-radius: 60px;
-   height: 18rem;
-   width: 15rem;
-}
-   
-.circle-container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.circle{
-   width: 100px;
-   height: 105px;
-   border-radius: 50%;
-   text-align: center;
-   color: var(--color-white);
-   background-color: rgb(83,53,227);
-}
-.circle h1{
-   padding-top: 25px;
-}
-.circle p{
-   color: var(--color-light-lavender);
-   font-size: 14px;
-}
-Article{
-   color: var(--color-light-lavender);
-   text-align: center;
-   padding-top: 30px;
-   padding-right: 17px;
-   font-size: 15px;
+.sevensix-p {
+  font-size: 5rem;
+  font-weight: 800;
+  color: white;
 }
 
-
-
-.flex-table-container{
-   width: 40%;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
+.hundred-p {
+  color: var(--color-dark-gray-blue);
 }
-.colum-left{
-   padding-right: 185px;
-   background-color: var(--color-pale-blue);
+.Rojo {
+  background-color: aliceblue;
 }
-
-.Reaction{
-   color: #FF6D6B;
-   padding-bottom: 13px;
-}
-
-.Memory{
-   color: var(--color-orangey-yellow);
-   padding-bottom: 13px;
-}
-
-.Verbal{
-   color: var(--color-green-teal);
-   padding-bottom: 13px;
-}
-
-.Visual{
-   color: var(--color-cobalt-blue);
-   padding-bottom: 13px;
-}
-
-.subtitle-container{
-   width: 0rem;
-   height: 70%;
-}
-
-.subtitle{
-   margin-top: 10px;
-   margin-left: 10px;
-}
-

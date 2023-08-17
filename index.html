@@ -1,81 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./Css/Variables.css">
   <link rel="stylesheet" href="./Styles.css">
-  
+
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
-  <main>
-  <div class="background-container">
-    <h3 class='heading-center--gray'>Your Result</h3>
-    <div class="circle-container">
+  <main class="main-container">
+    <div class="result-container">
+      <h2>Your result</h2>
       <div class="circle">
-        <h1>  76</h1>
-        <p>  of 100</p>
+        <p class="sevensix-p">76</p>
+        <p class="hundred-p">of 100</p>
+      </div>
+      <div>
+        <h3>Great</h3>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
       </div>
     </div>
-    <Article>
-      <h1><b>Great</b></h1> 
-      You scored higher than 65% of <br> the people who have taken  <br>these tests.
-    </Article>
-  </div>
-  <div class="flex-table-container">
-    <div class="subtitle-container">
-      <h3 class="subtitle">Summary</h3>
-    </div>
-    <section class="colum-left">
-      <ul>
-        <li class="Reaction">
-          <img src="./assets/images/icon-reaction.svg" alt="">
-          Reaction
-        </li>
-        <li class="Memory">
-          <img src="./assets/images/icon-memory.svg" alt="">
-          Memory
-        </li>
-        <li class="Verbal">
-          <img src="/assets/images/icon-verbal.svg" alt="">
-          Verbal
-        </li>
-        <li class="Visual">
-          <img src="./assets/images/icon-visual.svg" alt="">
-          Visual
-        </li>
-      </ul>
-    </section>
-    <section class="colum-rigth">
-      <ul>
-        <li><span></span></li>
-        <li class="score-one">80 / 100</li>
-        <li class="score-two">92 / 100</li>
-        <li class="score-three">61 / 100</li>
-        <li class="score-four">72 / 100</li>
-      </ul>
-    </section>
-  </div>
-  <section class="button-section">
-    <button>Continue</button>
-  </section>
-</main>
-<div>
-  
-</div>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="Rojo">Rojo</div>
+  </main>
 </body>
+
 </html>
