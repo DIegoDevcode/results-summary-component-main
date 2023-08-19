@@ -54,6 +54,14 @@ body {
 .hundred-p {
   color: var(--color-dark-gray-blue);
 }
-.Rojo {
+.Table {
   background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.list-words {
+  padding: 4.7rem;
 }
