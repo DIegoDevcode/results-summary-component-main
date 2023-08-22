@@ -55,6 +55,10 @@ body {
   color: var(--color-white);
 }
 
+.score-p {
+  color: gray;
+}
+
 .circle {
   background-color: var(--gradient-light-royal-blue-bg);
   border-radius: 50%;
@@ -110,6 +114,10 @@ body {
 }
 .Visual {
   color: var(--color-cobalt-blue);
+}
+
+.list-number span {
+  color: #a6a6a6;
 }
 
 .score-one {
