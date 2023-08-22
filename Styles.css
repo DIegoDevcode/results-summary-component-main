@@ -44,7 +44,7 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 .result-container {
-  background-color: var(--gradient-violet-blue-circle);
+  background-color: var(--gradient-light-royal-blue-bg);
   padding: 2rem;
   border-radius: 2rem;
   text-align: center;
@@ -52,11 +52,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  color: var(--color-white);
 }
 
 .circle {
+  background-color: var(--gradient-light-royal-blue-bg);
   border-radius: 50%;
-  background-color: var(--gradient-light-slate-blue-bg);
   width: 17rem;
   height: 17rem;
   display: flex;
@@ -72,7 +73,7 @@ body {
 }
 
 .hundred-p {
-  color: var(--color-dark-gray-blue);
+  color: gray;
 }
 .Table {
   background-color: aliceblue;
