@@ -145,7 +145,7 @@ body {
   text-align: center;
   background-color: var(--color-dark-gray-blue);
   color: var(--color-white);
-  border-radius: 25%;
+  border-radius: 3rem;
 }
 
 .button-continue:hover {
